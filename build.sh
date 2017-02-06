@@ -60,11 +60,11 @@ apk_pkg_version() {
 }
 
 packer_version() {
-    grep -Po '(?<=\bPACKER_VERSION=)[^\\]+'
+    grep -Po '(?<=\bPACKER_VERSION=)[^\\]+' Dockerfile
 }
 
 terraform_version() {
-    grep -Po '(?<=\bTERRAFORM_VERSION=)[^\\]+'
+    grep -Po '(?<=\bTERRAFORM_VERSION=)[^\\]+' Dockerfile
 }
 
 built_by() {

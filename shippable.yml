@@ -26,7 +26,8 @@ build:
     - a=$(docker inspect opsgang/$IMG:candidate | jq -r '.[].Config.Labels')
     - v=$(echo $a | jq -r '.version')
     - gt=$(echo $a | jq -r '."opsgang.build_git_tag"')
-    - tags="$v $gt stable"
+    - pv=packer-$(echo $a | jq -r '."opsgang.packer_version"')
+    - tags="$v $gt $pv stable"
     - echo $a | jq . # show me the labels please
     - echo "docker tags:($tags)"
     - docker login -p $DHP -u $DHU
