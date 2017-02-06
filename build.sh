@@ -120,8 +120,8 @@ labels() {
     --label version=$(date +'%Y%m%d%H%M%S')
     --label opsgang.awscli_version=$av
     --label opsgang.credstash_version=$cv
-    --label opsgang.jq_version="$jv"
-    --label opsgang.packer_version="$pv"
+    --label opsgang.jq_version=$jv
+    --label opsgang.packer_version=$pv
     --label opsgang.build_git_uri=$gu
     --label opsgang.build_git_sha=$gs
     --label opsgang.build_git_branch=$gb
