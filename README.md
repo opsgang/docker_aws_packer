@@ -60,4 +60,3 @@ docker run --rm -i                      \ # ... run interactive to see stdout / 
 # Oh look! vim is preinstalled. How cool! And gratuitous.
 docker run -it opsgang/aws_packer:stable /bin/bash
 ```
-
