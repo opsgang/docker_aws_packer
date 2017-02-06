@@ -5,7 +5,7 @@ MAINTAINER jinal--shah <jnshah@gmail.com>
 LABEL \
       name="opsgang/aws_packer" \
       vendor="sortuniq"     \
-      description="... to run bash or python scripts, with awscli, credstash, curl, jq"
+      description="common tools to run packer in or for aws"
 
 ENV PACKER_VERSION=0.12.2
 
