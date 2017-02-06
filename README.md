@@ -20,7 +20,7 @@ _... alpine container with common tools to use Hashicorp's Packer on or for aws_
 
 [![Run Status](https://api.shippable.com/projects/5898f1a3cdbe190f000edcfd/badge?branch=master)](https://app.shippable.com/projects/5898f1a3cdbe190f000edcfd)
 
-**master branch built at shippable.com**
+**tags on master branch built at shippable.com**
 
 ```bash
 git clone https://github.com/opsgang/docker_aws_packer.git
