@@ -60,11 +60,11 @@ apk_pkg_version() {
 }
 
 packer_version() {
-    echo $PACKER_VERSION
+    grep -Po '(?<=\bPACKER_VERSION=)[^\\]+'
 }
 
 terraform_version() {
-    echo $TERRAFORM_VERSION
+    grep -Po '(?<=\bTERRAFORM_VERSION=)[^\\]+'
 }
 
 built_by() {
