@@ -7,7 +7,7 @@ LABEL \
       vendor="sortuniq"     \
       description="common tools to run packer in or for aws"
 
-ENV PACKER_VERSION=0.12.2
+ENV PACKER_VERSION=1.3.2
 
 COPY alpine_build_scripts /alpine_build_scripts
 
